@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523FBAA9270B1E1B005377B1 /* SDKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FBAA8270B1E1B005377B1 /* SDKViewController.swift */; };
+		523FBAAB270B1E29005377B1 /* MediationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FBAAA270B1E29005377B1 /* MediationViewController.swift */; };
+		523FBAAD270B1E36005377B1 /* BannerXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FBAAC270B1E36005377B1 /* BannerXML.swift */; };
+		523FBAAF270B1E41005377B1 /* BannerInCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FBAAE270B1E41005377B1 /* BannerInCode.swift */; };
+		523FBAB1270B1E4C005377B1 /* BannerInLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FBAB0270B1E4C005377B1 /* BannerInLine.swift */; };
+		523FBAB3270B1E55005377B1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FBAB2270B1E55005377B1 /* CustomCell.swift */; };
+		523FBAB5270B1E61005377B1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FBAB4270B1E61005377B1 /* Settings.swift */; };
+		523FBAB7270B1E72005377B1 /* CustomInStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FBAB6270B1E72005377B1 /* CustomInStreamViewController.swift */; };
+		523FBAB8270B1F66005377B1 /* AdmixerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523FBAA4270B1D8B005377B1 /* AdmixerSDK.framework */; };
+		523FBAB9270B1F66005377B1 /* AdmixerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 523FBAA4270B1D8B005377B1 /* AdmixerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52B3E857270B198100502844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3E856270B198100502844 /* AppDelegate.swift */; };
 		52B3E859270B198100502844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3E858270B198100502844 /* SceneDelegate.swift */; };
 		52B3E85B270B198100502844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3E85A270B198100502844 /* ViewController.swift */; };
 		52B3E85E270B198100502844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B3E85C270B198100502844 /* Main.storyboard */; };
-		52B3E860270B198200502844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B3E85F270B198200502844 /* Assets.xcassets */; };
 		52B3E863270B198200502844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B3E861270B198200502844 /* LaunchScreen.storyboard */; };
 		52B3E86E270B198300502844 /* AdmixerSDKUITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3E86D270B198300502844 /* AdmixerSDKUITestTests.swift */; };
 		52B3E878270B198300502844 /* AdmixerSDKUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3E877270B198300502844 /* AdmixerSDKUITestUITests.swift */; };
@@ -35,7 +44,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		523FBABA270B1F66005377B1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				523FBAB9270B1F66005377B1 /* AdmixerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		523FBAA4270B1D8B005377B1 /* AdmixerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdmixerSDK.framework; path = AdmixerSDK/AdmixerSDK.framework; sourceTree = "<group>"; };
+		523FBAA8270B1E1B005377B1 /* SDKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKViewController.swift; sourceTree = "<group>"; };
+		523FBAAA270B1E29005377B1 /* MediationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediationViewController.swift; sourceTree = "<group>"; };
+		523FBAAC270B1E36005377B1 /* BannerXML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerXML.swift; sourceTree = "<group>"; };
+		523FBAAE270B1E41005377B1 /* BannerInCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerInCode.swift; sourceTree = "<group>"; };
+		523FBAB0270B1E4C005377B1 /* BannerInLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerInLine.swift; sourceTree = "<group>"; };
+		523FBAB2270B1E55005377B1 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		523FBAB4270B1E61005377B1 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		523FBAB6270B1E72005377B1 /* CustomInStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInStreamViewController.swift; sourceTree = "<group>"; };
 		52B3E853270B198100502844 /* AdmixerSDKUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmixerSDKUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B3E856270B198100502844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B3E858270B198100502844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +81,7 @@
 		52B3E873270B198300502844 /* AdmixerSDKUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdmixerSDKUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B3E877270B198300502844 /* AdmixerSDKUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmixerSDKUITestUITests.swift; sourceTree = "<group>"; };
 		52B3E879270B198300502844 /* AdmixerSDKUITestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmixerSDKUITestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52B3E88A270B1CEE00502844 /* AdmixerSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdmixerSDK; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523FBAB8270B1F66005377B1 /* AdmixerSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +117,7 @@
 				52B3E86C270B198300502844 /* AdmixerSDKUITestTests */,
 				52B3E876270B198300502844 /* AdmixerSDKUITestUITests */,
 				52B3E854270B198100502844 /* Products */,
+				52B3E888270B1CC600502844 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +141,14 @@
 				52B3E85F270B198200502844 /* Assets.xcassets */,
 				52B3E861270B198200502844 /* LaunchScreen.storyboard */,
 				52B3E864270B198200502844 /* Info.plist */,
+				523FBAA8270B1E1B005377B1 /* SDKViewController.swift */,
+				523FBAAA270B1E29005377B1 /* MediationViewController.swift */,
+				523FBAAC270B1E36005377B1 /* BannerXML.swift */,
+				523FBAAE270B1E41005377B1 /* BannerInCode.swift */,
+				523FBAB0270B1E4C005377B1 /* BannerInLine.swift */,
+				523FBAB2270B1E55005377B1 /* CustomCell.swift */,
+				523FBAB4270B1E61005377B1 /* Settings.swift */,
+				523FBAB6270B1E72005377B1 /* CustomInStreamViewController.swift */,
 			);
 			path = AdmixerSDKUITest;
 			sourceTree = "<group>";
@@ -127,6 +170,15 @@
 			path = AdmixerSDKUITestUITests;
 			sourceTree = "<group>";
 		};
+		52B3E888270B1CC600502844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				523FBAA4270B1D8B005377B1 /* AdmixerSDK.framework */,
+				52B3E88A270B1CEE00502844 /* AdmixerSDK */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +189,7 @@
 				52B3E84F270B198100502844 /* Sources */,
 				52B3E850270B198100502844 /* Frameworks */,
 				52B3E851270B198100502844 /* Resources */,
+				523FBABA270B1F66005377B1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +285,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B3E863270B198200502844 /* LaunchScreen.storyboard in Resources */,
-				52B3E860270B198200502844 /* Assets.xcassets in Resources */,
 				52B3E85E270B198100502844 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +311,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B3E85B270B198100502844 /* ViewController.swift in Sources */,
+				523FBAAD270B1E36005377B1 /* BannerXML.swift in Sources */,
+				523FBAB1270B1E4C005377B1 /* BannerInLine.swift in Sources */,
 				52B3E857270B198100502844 /* AppDelegate.swift in Sources */,
+				523FBAB5270B1E61005377B1 /* Settings.swift in Sources */,
+				523FBAB3270B1E55005377B1 /* CustomCell.swift in Sources */,
 				52B3E859270B198100502844 /* SceneDelegate.swift in Sources */,
+				523FBAA9270B1E1B005377B1 /* SDKViewController.swift in Sources */,
+				523FBAAB270B1E29005377B1 /* MediationViewController.swift in Sources */,
+				523FBAB7270B1E72005377B1 /* CustomInStreamViewController.swift in Sources */,
+				523FBAAF270B1E41005377B1 /* BannerInCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +499,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdmixerSDK",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AdmixerSDKUITest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +530,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdmixerSDK",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AdmixerSDKUITest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
